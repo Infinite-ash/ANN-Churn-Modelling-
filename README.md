@@ -22,7 +22,7 @@ To run this project, you need to have Python installed on your machine. Follow t
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/sanskaryo/Churn-Prediction-Using_ANN.git
+   git clone (https://github.com/Infinite-ash/ANN-Churn-Modelling-)
    cd Churn-Prediction-Using_ANN
    ```
 
@@ -64,9 +64,9 @@ The `app.py` file serves as the main interface for making predictions. It perfor
 - **`app.py`**: The main Streamlit application for user interaction and predictions.
 - **`experiments.ipynb`**: Jupyter notebook that contains data exploration, preprocessing, model building, training, and evaluation code.
 - **`model.keras`**: The trained ANN model saved in Keras format, used for deployment.
-- **`label_encoder_gender.pkl`**: Pickle file containing the encoder for the gender feature.
-- **`onehot_encoder_geo.pkl`**: Pickle file containing the encoder for the geography feature.
-- **`scaler.pkl`**: Pickle file containing the scaler for numerical features.
+- **`label_encoder.pkl`**: Pickle file containing the encoder for the gender feature.
+- **`one_hot_encoder.pkl`**: Pickle file containing the encoder for the geography feature.
+- **`scaler.pkl`**: Pickle file containing the scaler for numeriScal features.
 - **`requirements.txt`**: File listing all dependencies required to run the project.
 
 ## Dependencies
